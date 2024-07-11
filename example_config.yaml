@@ -1,0 +1,4 @@
+cfg: 1.5
+steps: 10
+sampler: karras
+scheduler: normal
