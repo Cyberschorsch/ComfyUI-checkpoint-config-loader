@@ -14,7 +14,7 @@ config_files = [f for f in os.listdir(config_file_directory) if os.path.isfile(o
 
 # This node allows loading configuration per checkpoint.
 class CheckpointLoaderConfigCustomNode:
-    CATEGORY = "Utils"
+    CATEGORY = "utils"
 
     @classmethod
     def INPUT_TYPES(s):
